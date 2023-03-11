@@ -1,0 +1,24 @@
+baseURL: https://securebyte.xyz/
+languageCode: en-us
+title: SecureByte
+theme: PaperMod
+
+params:
+    assets:
+        favicon: "/assets/favicon.ico"
+
+    ShowPostNavLinks: true
+
+    ShowCodeCopyButtons: true
+    
+    defaultTheme: dark
+
+    homeInfoParams:
+        Title: Documenting my IT journey
+        Content: Guides on cybersecurity, networking, AI and crypto.
+
+
+    socialIcons:
+      - name: "github"
+        title: "My GitHub"
+        url: "https://github.com/gzachs"
