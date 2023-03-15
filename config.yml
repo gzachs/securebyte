@@ -3,9 +3,34 @@ languageCode: en-us
 title: SecureByte
 theme: PaperMod
 
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+
+menu:
+    main:
+        - identifier: archives
+          name: Archive
+          url: /archives/
+          weight: 10
+        - identifier: tags
+          name: Tags
+          url: /tags/
+          weight: 20
+        - identifier: search
+          name: Search
+          url: /search
+          weight: 30
+
 params:
+    description: "Offering valuable insights and practical advice on the latest trends in cybersecurity, networking, AI, and crypto."
+
     assets:
-        favicon: "/assets/favicon.ico"
+        favicon: "/assets/favicon/favicon.ico"
+        # Remove Code Block Highlights
+        disableHLJS: true
 
     ShowPostNavLinks: true
 
@@ -15,10 +40,13 @@ params:
 
     homeInfoParams:
         Title: Documenting my IT journey
-        Content: Guides on cybersecurity, networking, AI and crypto.
-
+        Content: Exploring the world of cybersecurity, networking, AI, and crypto and recording my insights.
 
     socialIcons:
       - name: "github"
         title: "My GitHub"
         url: "https://github.com/gzachs"
+
+    taxonomies:
+        category: categories
+        tag: tags

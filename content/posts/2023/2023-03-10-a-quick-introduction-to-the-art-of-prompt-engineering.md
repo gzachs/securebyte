@@ -2,6 +2,10 @@
 title: "A Quick Introduction To The Art Of Prompt Engineering"
 date: 2023-03-10T14:11:10+04:00
 draft: false
+categories: NLP
+tags:
+  - OpenAI
+  - ChatGPT
 ShowToc: true
 TocOpen: true
 author: Gino
@@ -18,7 +22,7 @@ Prompt Engineering (PE) is the process of designing and refining the prompts or 
 
 ## Three Basic Principles of Prompt Engineering
 
-From my experimentations with GPT-3, I’ve found that refining my prompts would significantly improve the quality of the responses. This entire process of PE can be thought of as a sort of natural language programming. In order to design better prompts, here are three basic principles that have helped me immensely:
+From my experimentations with ChatGPT, I’ve found that refining my prompts would significantly improve the quality of the responses. This entire process of PE can be thought of as a sort of natural language programming. In order to design better prompts, here are three basic principles that have helped me immensely:
 
 ### I - Give The Model A Role
 
