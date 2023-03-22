@@ -28,7 +28,7 @@ params:
     description: "Offering valuable insights and practical advice on the latest trends in cybersecurity, networking, AI, and crypto."
 
     assets:
-        favicon: "/assets/favicon/favicon.ico"
+        favicon: "/assets/favicon.ico"
         # Remove Code Block Highlights
         disableHLJS: true
 
